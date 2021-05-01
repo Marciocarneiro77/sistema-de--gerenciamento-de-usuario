@@ -5,7 +5,7 @@
     $novousuario['usuario'] = $_GET['usuario'];
 
     if(isset($_GET['senha'])){
-        $user['senha'] = $_GET['senha'];
+        $novousuario['senha'] = $_GET['senha'];
     }else{
         $novousuario['senha'] = '';
     }
