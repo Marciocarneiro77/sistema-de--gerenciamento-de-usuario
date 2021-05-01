@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    padding: 1rem;
+}
+
+.pagina{
+    background:rgb(185, 183, 183)
+}
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input[type=password]:hover{
+    background-color: rgb(248, 212, 212);
+    color: rgb(61, 56, 56);
+}
+
+input[type=password]{
+    border-radius: 10px;  
+}
+
+input[type=text]:hover{
+    background-color: rgb(248, 212, 212);
+    color: rgb(61, 56, 56);
+   
+}
+input[type=text]{
+    border-radius: 10px;  
+}
+
+button[type=submit]:hover{
+    background-color: rgb(248, 212, 212);
+    color: rgb(61, 56, 56);
+    
+}
+
+button[type=submit]{
+    display:block;
+    background-color:#ccc;
+    height:35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align:center;
+    border-radius: 10px;
+    font-size: 15px;
+}
